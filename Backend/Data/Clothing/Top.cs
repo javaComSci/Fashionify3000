@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Backend.Data
 {
-    public class Tops : Clothing
+    public class Top : Clothing
     {
-        public Tops()
+        public Top()
         {
         }
     }

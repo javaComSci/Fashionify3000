@@ -14,17 +14,25 @@ namespace Backend.Controllers
     {
         private readonly ILogger<RandomPortfolioController> _logger;
 
-        private IClothingFactory clothingFactory;
+        private IClothingFactory _clothingFactory;
 
         public RandomPortfolioController(ILogger<RandomPortfolioController> logger)
         {
             _logger = logger;
+            _clothingFactory = new RandomClothingFactory();
         }
 
         [HttpGet]
         public IEnumerable<Clothing> Get()
         {
-            return null;
+            var clothingList = new List<Clothing>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                clothingList.Add(_clothingFactory.CreateClothing());
+            }
+
+            return clothingList;
         }
     }
 }
