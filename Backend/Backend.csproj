@@ -8,4 +8,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Data\Clothing\" />
+    <None Remove="Data\Clothing\ClothingFactory.cs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Data\Clothing\" />
+    <Folder Include="Data\Clothing\ClothingFactory\" />
+  </ItemGroup>
 </Project>

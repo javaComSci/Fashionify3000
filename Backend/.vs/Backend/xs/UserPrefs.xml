@@ -1,15 +1,25 @@
 ﻿<Properties StartupConfiguration="{2391A8A2-6EB8-4BEA-AA5D-A58E944694F8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/WeatherForecastController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Clothing/ClothingFactory/RandomClothingFactory.cs">
     <Files>
-      <File FileName="Controllers/WeatherForecastController.cs" Line="17" Column="11" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="15" Column="31" />
+      <File FileName="Data/WeatherForecast.cs" Line="10" Column="25" />
+      <File FileName="Data/Clothing/Bottoms.cs" Line="6" Column="25" />
+      <File FileName="Data/Clothing/Tops.cs" Line="11" Column="1" />
+      <File FileName="Data/Clothing/ClothingFactory/IClothingFactory.cs" Line="9" Column="1" />
+      <File FileName="Data/Clothing/ClothingFactory/RandomClothingFactory.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Backend" expanded="True">
             <Node name="Backend" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherForecastController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Clothing" expanded="True">
+                  <Node name="ClothingFactory" expanded="True">
+                    <Node name="RandomClothingFactory.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
