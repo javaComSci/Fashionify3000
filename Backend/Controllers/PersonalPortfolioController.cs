@@ -34,7 +34,7 @@ namespace Backend.Controllers
             Console.WriteLine(image.Encoded);
 
             // Categorize the image
-            // Put the image in the db
+            // Put the image in the db as categorized
         }
     }
 }
