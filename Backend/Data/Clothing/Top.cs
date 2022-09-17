@@ -5,6 +5,7 @@ namespace Backend.Data
     {
         public Top()
         {
+            Type = "Top";
         }
     }
 }

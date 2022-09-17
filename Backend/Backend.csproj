@@ -12,10 +12,12 @@
     <None Remove="Data\" />
     <None Remove="Data\Clothing\" />
     <None Remove="Data\Clothing\ClothingFactory.cs\" />
+    <None Remove="Data\Image\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Data\Clothing\" />
     <Folder Include="Data\Clothing\ClothingFactory\" />
+    <Folder Include="Data\Image\" />
   </ItemGroup>
 </Project>
