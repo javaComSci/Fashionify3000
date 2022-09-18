@@ -87,7 +87,7 @@ class DataLoader:
                 decodedClothing = os.fsdecode(encodedClothing)
                 clothingPath = clothingTypePath + "/" + decodedClothing
                 clothingImage = Image.open(clothingPath)
-                clothing = np.asarray(clothingImage)
+                clothing = np.asarray(clothingImage)/255.0
                 clothingReshaped = clothing.reshape(-1)
                 # print(clothingReshaped.shape)
 
@@ -99,7 +99,7 @@ class DataLoader:
         Y_np = np.array(Y_full)
         print(X_np.shape)
         print(Y_np.shape)
-
+        print(X_np[0])
         return (X_full, Y_full)
 
 
